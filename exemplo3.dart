@@ -9,6 +9,5 @@ void main() {
 
   double porcentagem = (porcentagem_desejada * valor_total) / 100;
 
-
   print("Valor: $porcentagem%");
 }
