@@ -6,12 +6,10 @@ String formatar_cpf(String cpf)
   String resultado = "";
   for (int i = 0; i < cpf.length; i++)
   {
-    if (i == 2 || i == 5)
-    {
+    if (i == 2 || i == 5){
       resultado += cpf[i] + ".";  
     }
-    else if (i == 8)
-    {
+    else if (i == 8){
       resultado += cpf[i] + "-";
     }
     else{
