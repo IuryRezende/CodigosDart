@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   bool a = true;
   bool b = false;
@@ -5,4 +7,5 @@ void main() {
   print(a && b);
   print(a || b);
   print(!b);
+  stdout.addError("error");
 }
