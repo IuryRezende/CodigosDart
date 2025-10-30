@@ -3,15 +3,11 @@ import 'dart:math';
 
 void main(){
   int soma = 0;
-  while (true)
+  int? num;
+  while (num != 0)
   {
     stdout.write("Digite um valor ou digite 0 para encerrar: ");
-    int num = int.parse(stdin.readLineSync()!);
-
-    if (num == 0)
-    {
-      break;
-    }
+    num = int.parse(stdin.readLineSync()!);
 
     soma += num;
     print("O valor atual é: ${soma}");
