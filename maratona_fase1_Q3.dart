@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:math';
+
 
 void main () {
   double nota1 = 0;
